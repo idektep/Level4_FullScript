@@ -15,8 +15,8 @@ Adafruit_NeoPixel strip = Adafruit_NeoPixel(12, PIN, NEO_GRB + NEO_KHZ800);
 Adafruit_NeoPixel strip2 = Adafruit_NeoPixel(12, PIN2, NEO_GRB + NEO_KHZ800);
 //servo head and arm 
 #include <Servo.h>
-#define servo_armRight_pin 9
-#define servo_armleft_pin 10
+#define servo_armRight_pin 10
+#define servo_armleft_pin 9
 #define servo_head_pin 11
 Servo servo_armleft;
 Servo servo_armRight;
@@ -89,3 +89,4 @@ void setup() {
 void loop() {
    speech_command();
 }
+
